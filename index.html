@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>∞</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="app">
+
+        <header id="header">
+            <div>
+                <span class="label">INFINITE SYSTEM</span>
+                <h1 id="pageTitle">LOADING...</h1>
+            </div>
+
+            <div id="seedBox">
+                <span>SEED</span>
+                <strong id="seedDisplay">000000</strong>
+            </div>
+        </header>
+
+        <main id="content">
+
+            <section id="pageInfo">
+                <div class="info">
+                    <span>DEPTH</span>
+                    <strong id="depthDisplay">0</strong>
+                </div>
+
+                <div class="info">
+                    <span>GENERATED ID</span>
+                    <strong id="idDisplay">------</strong>
+                </div>
+
+                <div class="info">
+                    <span>VISITED</span>
+                    <strong id="visitedDisplay">0</strong>
+                </div>
+            </section>
+
+            <section id="mainPanel">
+
+                <div id="symbol">?</div>
+
+                <h2 id="mainHeading">Generating...</h2>
+
+                <p id="description">
+                    Please wait.
+                </p>
+
+                <div id="equationBox">
+                    <span>GENERATION FUNCTION</span>
+                    <code id="equation"></code>
+                </div>
+
+                <div id="actions"></div>
+
+            </section>
+
+            <section id="historyPanel">
+
+                <div class="panelTitle">
+                    <span>PATH HISTORY</span>
+                    <button id="clearHistory">CLEAR LOCAL DATA</button>
+                </div>
+
+                <div id="history"></div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <span>NO DATABASE</span>
+            <span>NO SERVER</span>
+            <span>PURE DETERMINISTIC GENERATION</span>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
